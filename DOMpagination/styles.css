@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(130, 4, 213);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+li {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px 20px;
+    background-color: black;
+    color: white;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+a:active {
+    background-color: rgb(130, 4, 213);
+    color: white;
+}
+
